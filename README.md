@@ -1,4 +1,4 @@
-# F1 Driver Talent Ranking — EFB350 Assignment
+# F1 Driver Talent Ranking
 
 Replication and extension of **Eichenberger & Stadelmann (2009)**: *"Who is the best Formula 1 driver? An economic approach to evaluating talent"*.
 
