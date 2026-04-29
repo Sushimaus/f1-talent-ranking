@@ -414,9 +414,56 @@ def main():
               f"coef={row['talent_coef']:>7.3f}  {row['years_active']}")
     
     era_comparison(df, qualified_drivers, model, driver_cols)
-    
-    return ranking, model
+
+    # ─────────────────────────────────────────────
+    # REPLICATION: 1950–2006 (original study period)
+    # ─────────────────────────────────────────────
+    print("\n" + "="*60)
+    print("REPLICATION: 1950–2006 (original study period)")
+    print("="*60)
+
+    raw_06 = [r for r in raw if r["year"] <= 2006]
+    df_06, qd_06 = build_dataset(raw_06)
+    model_06, dc_06, X_06 = run_regression(df_06, qd_06)
+    ranking_06 = build_ranking(model_06, dc_06, df_06, qd_06)
+
+    print("\n" + "="*60)
+    print("F1 DRIVER TALENT RANKING — 1950–2006 REPLICATION")
+    print("Lower coefficient = better driver")
+    print("="*60)
+    for _, row in ranking_06.head(30).iterrows():
+        print(f"  #{int(row['rank']):>3}  {row['driver_name']:<25} "
+              f"({row['nationality']:<15})  "
+              f"coef={row['talent_coef']:>7.3f}  "
+              f"SE={row['std_error']:.3f}  "
+              f"races={int(row['n_races'])}  "
+              f"{row['years_active']}")
+
+    ranking_06.to_csv("f1_talent_ranking_1950_2006.csv", index=False)
+    print(f"\n1950–2006 ranking saved to f1_talent_ranking_1950_2006.csv")
+
+    # ─────────────────────────────────────────────
+    # SIDE-BY-SIDE COMPARISON: 1950–2006 vs 1950–2025 (top 20)
+    # ─────────────────────────────────────────────
+    print("\n" + "="*80)
+    print("TOP 20 COMPARISON: 1950–2006 replication  vs  1950–2025 extension")
+    print("="*80)
+    print(f"  {'Rank':<5}  {'1950–2006 Driver':<25}  {'Coef':>7}    "
+          f"{'Rank':<5}  {'1950–2025 Driver':<25}  {'Coef':>7}")
+    print(f"  {'-'*4}  {'-'*24}  {'-'*7}    {'-'*4}  {'-'*24}  {'-'*7}")
+
+    top20_06  = ranking_06.head(20).reset_index(drop=True)
+    top20_all = ranking.head(20).reset_index(drop=True)
+    for i in range(20):
+        r06  = top20_06.iloc[i]
+        rall = top20_all.iloc[i]
+        print(f"  #{int(r06['rank']):<4}  {r06['driver_name']:<25}  "
+              f"{r06['talent_coef']:>7.3f}    "
+              f"#{int(rall['rank']):<4}  {rall['driver_name']:<25}  "
+              f"{rall['talent_coef']:>7.3f}")
+
+    return ranking, ranking_06, model, model_06
 
 
 if __name__ == "__main__":
-    ranking, model = main()
+    ranking, ranking_06, model, model_06 = main()
