@@ -73,26 +73,26 @@ Drivers sorted ascending by `α_i` (lower = more talented). Only drivers with 40
 
 | Rank | Original E&S (2009) | 1950–2006 Replication (coef) | 1950–2025 Extension (coef) |
 |-----:|---------------------|------------------------------|----------------------------|
-| 1 | Juan Fangio | Juan Fangio (−6.37) | Juan Fangio (−6.38) |
+| 1 | Juan Manuel Fangio | Juan Fangio (−6.37) | Juan Fangio (−6.38) |
 | 2 | Jim Clark | Jim Clark (−5.55) | Max Verstappen (−6.13) |
-| 3 | Stirling Moss | Emerson Fittipaldi (−5.36) | Jim Clark (−5.56) |
+| 3 | Michael Schumacher | Emerson Fittipaldi (−5.36) | Jim Clark (−5.56) |
 | 4 | Jackie Stewart | Jackie Stewart (−5.21) | Charles Leclerc (−5.49) |
-| 5 | Emerson Fittipaldi | Mike Hawthorn (−4.95) | Lando Norris (−5.45) |
-| 6 | Jochen Rindt | Fernando Alonso (−4.95) | Emerson Fittipaldi (−5.35) |
+| 5 | Mike Hawthorn | Mike Hawthorn (−4.95) | Lando Norris (−5.45) |
+| 6 | Fernando Alonso | Fernando Alonso (−4.95) | Emerson Fittipaldi (−5.35) |
 | 7 | Alain Prost | Alain Prost (−4.72) | Jackie Stewart (−5.19) |
-| 8 | Niki Lauda | Dan Gurney (−4.68) | Fernando Alonso (−5.06) |
-| 9 | Ayrton Senna | Michael Schumacher (−4.53) | Mike Hawthorn (−4.94) |
-| 10 | Nelson Piquet | Bruce McLaren (−4.29) | Carlos Sainz (−4.84) |
-| 11 | Mike Hawthorn | Jochen Rindt (−4.25) | Felipe Nasr (−4.77) |
-| 12 | Dan Gurney | Ronnie Peterson (−4.12) | Alain Prost (−4.75) |
-| 13 | Bruce McLaren | Elio de Angelis (−4.11) | Sebastian Vettel (−4.70) |
-| 14 | Ronnie Peterson | John Watson (−3.96) | Dan Gurney (−4.67) |
-| 15 | Carlos Reutemann | Denny Hulme (−3.96) | Nico Rosberg (−4.57) |
-| 16 | Gilles Villeneuve | Carlos Reutemann (−3.87) | Alexander Albon (−4.45) |
-| 17 | Mario Andretti | Stirling Moss (−3.86) | Oscar Piastri (−4.43) |
-| 18 | Jack Brabham | Jacky Ickx (−3.86) | Kamui Kobayashi (−4.41) |
-| 19 | Denny Hulme | James Hunt (−3.84) | Daniel Ricciardo (−4.38) |
-| 20 | Michael Schumacher | Jean-Pierre Beltoise (−3.77) | Lewis Hamilton (−4.36) |
+| 8 | Graham Hill | Dan Gurney (−4.68) | Fernando Alonso (−5.06) |
+| 9 | Emerson Fittipaldi | Michael Schumacher (−4.53) | Mike Hawthorn (−4.94) |
+| 10 | Jacky Ickx | Bruce McLaren (−4.29) | Carlos Sainz (−4.84) |
+| 11 | Kimi Räikkönen | Jochen Rindt (−4.25) | Felipe Nasr (−4.77) |
+| 12 | Jochen Rindt | Ronnie Peterson (−4.12) | Alain Prost (−4.75) |
+| 13 | Dan Gurney | Elio de Angelis (−4.11) | Sebastian Vettel (−4.70) |
+| 14 | James Hunt | John Watson (−3.96) | Dan Gurney (−4.67) |
+| 15 | Stirling Moss | Denny Hulme (−3.96) | Nico Rosberg (−4.57) |
+| 16 | Nick Heidfeld | Carlos Reutemann (−3.87) | Alexander Albon (−4.45) |
+| 17 | Ronnie Peterson | Stirling Moss (−3.86) | Oscar Piastri (−4.43) |
+| 18 | Elio de Angelis | Jacky Ickx (−3.86) | Kamui Kobayashi (−4.41) |
+| 19 | Pedro Rodriguez | James Hunt (−3.84) | Daniel Ricciardo (−4.38) |
+| 20 | Phil Hill | Jean-Pierre Beltoise (−3.77) | Lewis Hamilton (−4.36) |
 
 ---
 
